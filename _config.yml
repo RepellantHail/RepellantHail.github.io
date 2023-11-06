@@ -24,8 +24,9 @@ first_name: Luis
 middle_name: Jearim
 last_name: Modesto
 email: jearimmodesto@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Changing desc
+description: >- Changing desc
+# this means to ignore newlines until "baseurl:"
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: JearimModesto.github.io
 url: https://JearimModesto.github.io  # the base hostname & protocol for your site, e.g. http://example.com
