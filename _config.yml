@@ -19,18 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Jearim Modesto
-
-first_name: Luis
-middle_name: Jearim
-last_name: Modesto
 email: jearimmodesto@gmail.com
-<<<<<<< HEAD
 description: >- # this means to ignore newlines until "baseurl:"
-    "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
+  "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: JearimModesto.github.io
 url: https://JearimModesto.github.io  # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  RepellantHail
+linkedin_username: jearimmodesto
 
 # Build settings
 theme: minima
