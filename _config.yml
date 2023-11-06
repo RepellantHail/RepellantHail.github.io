@@ -31,7 +31,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: JearimModesto.github.io
 url: https://JearimModesto.github.io  # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  jekyll
+github_username:  RepellantHail
 
 # Build settings
 theme: minima
