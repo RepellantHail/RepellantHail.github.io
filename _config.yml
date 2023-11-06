@@ -34,11 +34,12 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: mainIcon  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: mainIcon.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 
 github_username:  RepellantHail
 linkedin_username: jearimmodesto
+hackerrank_username: jearimmodesto
 
 # Build settings
 theme: minima
