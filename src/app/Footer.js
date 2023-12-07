@@ -4,12 +4,13 @@ export default function Footer() {
             <div className="row">
                 <div className="col-8">
                     <h4>Luis Modesto</h4>
+                    <p>Software Engineer Student</p>
                 </div>
                 <div className="col-4">
                     <h4>Social</h4>
                     <div className="d-flex justify-content-evenly">
-                        <i class="bi-alarm"></i>
-                        <i class="bi-alarm"></i>
+                        <a href="https://www.linkedin.com/in/jearim-modesto/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/RepellantHail"><i class="bi bi-github"></i></a>                        
                     </div>
                 </div>
             </div>
