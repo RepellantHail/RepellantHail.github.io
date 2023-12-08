@@ -7,7 +7,7 @@ export default function Main(){
                         className="m-3 fs-1"
                         style={{ fontFamily: 'Pixelify_Sans', fontWeight: 'bold' }}
                     >Luis Modesto</h1>
-                    <h3 className="m-3">Software Engineer</h3>
+                    <h3 className="m-3"><i class="fa-solid fa-laptop-code"></i> Software Engineer</h3>
                     <p className='w-100 m-3 text-center'>
                     I'm Luis Modesto, a Software Developer passionate about learning and exploring technologies that bring creative ways to resolve problems.
                     </p>

@@ -1,5 +1,5 @@
 
-import styles from './page.module.css'
+import styles from "./../page.module.css"
 
 export default function Footer() {
     return (
@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="row m-2 ">
                 <div className="col-8">
                     <h4  className='mb-3'>Luis Modesto</h4>
-                    <p><i class="fa-solid fa-laptop-code"></i> Software Engineering Student</p>
+                    <p>Software Engineering Student</p>
                 </div>
                 <div className="col-4 " >
                     <h4  className='mb-3'>Social</h4>

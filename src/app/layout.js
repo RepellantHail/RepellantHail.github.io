@@ -2,8 +2,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import Navbar from './Navbar';
-import Footer from './Footer'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer></Footer>
       </body>
-      <script src="https://kit.fontawesome.com/09337f0c82.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/09337f0c82.js" crossorigin="anonymous"></script>//Awesome font icons
     </html>
   )
 }
