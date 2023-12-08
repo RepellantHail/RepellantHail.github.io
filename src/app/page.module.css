@@ -6,14 +6,6 @@
   padding: 6rem;
   min-height: 100vh;
 }
-.icon-link{
-  text-decoration: none;
-}
-
-.icon-link:hover{
-  color: inherit;
-  text-decoration: underline;
-}
 
 .description {
   display: inherit;
@@ -234,4 +226,22 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.footer{
+  color: rgb(var(--color-footer));
+  background-color: rgba(var(--background-footer));
+  padding: 10px;
+}
+
+.footer i{
+  color: rgb(var(--icon-color));
+}
+
+.footer svg{
+  color: red;
+}
+
+.footer a{
+  color: rgb(var(--icon-color));
 }

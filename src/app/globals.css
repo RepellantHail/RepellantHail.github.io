@@ -38,6 +38,11 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --color-footer: 255, 196, 54;
+  --background-footer: 12, 53, 106;
+  --icon-color: 1, 116 , 190;
+  --underline-color: 255, 240, 206;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -97,10 +102,19 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 
-/* a {
-  color: inherit;
+a {
   text-decoration: none;
-} */
+  margin-left: 20px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(var(--underline-color));
+  text-decoration: underline;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
