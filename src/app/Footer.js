@@ -4,7 +4,7 @@ import styles from './page.module.css'
 export default function Footer() {
     return (
         <div className={`container-fluid text-center ${styles.footer}`}>
-            <div className="row m-3 ">
+            <div className="row m-2 ">
                 <div className="col-8">
                     <h4  className='mb-3'>Luis Modesto</h4>
                     <p><i class="fa-solid fa-laptop-code"></i> Software Engineering Student</p>
@@ -21,13 +21,21 @@ export default function Footer() {
                             Github
                         </a>     
                         <a className="icon-link" href="https://leetcode.com/a20310068/">                            
-                            <img src='./leetcode.svg' alt="My SVG" style={{ margin: 0, width: 20, height: 20}}/>
+                            <img src='./leetcode.svg' alt="leetcode SVG" style={{ margin: 0, width: 20, height: 20}}/>
                             LeetCode
-                        </a>                     
+                        </a> 
+                        <a className="icon-link" href="https://www.hackerrank.com/profile/a20310068">      
+                            <i class="fa-brands fa-hackerrank"></i>
+                            HackerRank
+                        </a>     
+                        <a className="icon-link" href="https://www.codewars.com/users/RepellantHail10">  
+                            <img src='./codewars.svg' alt="codewars SVG" style={{ margin: 0, width: 20, height: 20}}/>
+                            CodeWars
+                        </a>                        
                     </div>
                 </div>
             </div>
-            <div className="row m-5">
+            <div className="row m-3">
                 <div className="col d-flex justify-content-between">
                     <h6>Built with: <i class="fa-brands fa-react"></i> React.js  Next.js </h6>
                     <h6>Copyright © Luis Modesto 2023 </h6>
