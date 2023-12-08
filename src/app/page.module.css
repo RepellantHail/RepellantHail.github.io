@@ -6,6 +6,13 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.icon-link{
+  text-decoration: none;
+}
+
+.icon-link:hover{
+  text-decoration: underline;
+}
 
 .description {
   display: inherit;

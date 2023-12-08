@@ -5,7 +5,7 @@ export default function Navbar(){
                 <div className="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto mb-lg-0 mb-3 d-flex justify-content-center">
                         <li class="nav-item active">
-                            <a className="navbar-brand" href="#">Luis Modesto</a>
+                            <a className="navbar-brand" href="#"><i class="fa-solid fa-code"></i> Luis Modesto</a>
                         </li>
                         <li class="nav-item  flex-grow-1">
                             <a class="nav-link" href="#">About</a>
