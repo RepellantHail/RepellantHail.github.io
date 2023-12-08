@@ -20,7 +20,8 @@ export default function RootLayout({ children }) {
         {children}
         <Footer></Footer>
       </body>
-      <script src="https://kit.fontawesome.com/09337f0c82.js" crossorigin="anonymous"></script>//Awesome font icons
+      {/* //Awesome font icons */}
+      <script src="https://kit.fontawesome.com/09337f0c82.js" crossorigin="anonymous"></script>
     </html>
   )
 }

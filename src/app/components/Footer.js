@@ -12,23 +12,23 @@ export default function Footer() {
                 <div className="col-4 " >
                     <h4  className='mb-3'>Social</h4>
                     <div className="d-flex justify-content-end">
-                        <a className="icon-link" href="https://www.linkedin.com/in/jearim-modesto/">
+                        <a className="icon-link" href="https://www.linkedin.com/in/jearim-modesto/" target="_blank">
                             <i class="bi bi-linkedin"> </i>        
                             LinkedIn                      
                         </a>
-                        <a className="icon-link" href="https://github.com/RepellantHail">
+                        <a className="icon-link" href="https://github.com/RepellantHail" target="_blank">
                             <i class="bi bi-github"> </i>
                             Github
                         </a>     
-                        <a className="icon-link" href="https://leetcode.com/a20310068/">                            
+                        <a className="icon-link" href="https://leetcode.com/a20310068/" target="_blank">                            
                             <img src='./leetcode.svg' alt="leetcode SVG" style={{ margin: 0, width: 20, height: 20}}/>
                             LeetCode
                         </a> 
-                        <a className="icon-link" href="https://www.hackerrank.com/profile/a20310068">      
+                        <a className="icon-link" href="https://www.hackerrank.com/profile/a20310068" target="_blank">      
                             <i class="fa-brands fa-hackerrank"></i>
                             HackerRank
                         </a>     
-                        <a className="icon-link" href="https://www.codewars.com/users/RepellantHail10">  
+                        <a className="icon-link" href="https://www.codewars.com/users/RepellantHail10" target="_blank">  
                             <img src='./codewars.svg' alt="codewars SVG" style={{ margin: 0, width: 20, height: 20}}/>
                             CodeWars
                         </a>                        
@@ -37,7 +37,10 @@ export default function Footer() {
             </div>
             <div className="row m-3">
                 <div className="col d-flex justify-content-between">
-                    <h6>Built with: <i class="fa-brands fa-react"></i> React.js  Next.js </h6>
+                    <h6>Built with: 
+                        <i class="fa-brands fa-react"></i> React.js  Next.js 
+                        <i class="fa-brands fa-bootstrap"></i> Bootstrap
+                    </h6>
                     <h6>Copyright © Luis Modesto 2023 </h6>
                 </div>
             </div>

@@ -1,5 +1,10 @@
+import Title from "../components/Title";
+
 export default function page() {
     return (
-        <div><h2>About</h2></div>
+        <div>
+            <Title {...{ title: "About" }} />
+
+        </div>
     );
 }
