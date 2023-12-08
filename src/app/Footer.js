@@ -18,7 +18,7 @@ export default function Footer() {
                             Github
                         </a>     
                         <a className="icon-link" href="https://github.com/RepellantHail">                            
-                            <img src='./leetcode.svg' alt="My SVG" style={{ margin: 0, width: 20, height: 20, color: 'red' }}/>
+                            <img src='./leetcode.svg' alt="My SVG" style={{ margin: 0, width: 20, height: 20}}/>
                             LeetCode
                         </a>                     
                     </div>
