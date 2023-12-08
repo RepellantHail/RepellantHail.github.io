@@ -121,3 +121,10 @@ a:hover{
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: 'Pixelify_Sans';
+  src: url('/fonts/PixelifySans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
