@@ -11,6 +11,7 @@
 }
 
 .icon-link:hover{
+  color: inherit;
   text-decoration: underline;
 }
 
