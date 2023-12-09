@@ -25,9 +25,15 @@ export default function page() {
                     <div class="card-body">
                         <h5 class="card-title">Contact</h5>
                         <p class="card-text">
-                            <i class="fa-solid fa-envelope"></i> jearimmodesto@gmail.com
+                            <a href="mailto:jearimmodesto@gmail.com">
+                                <i className="fas fa-envelope"></i> jearimmodesto@gmail.com
+                            </a>
                         </p>
-                        <button type="button" class="btn btn-primary"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</button>
+                        <a href="./../Profile.pdf" download>
+                            <button type="button" className="btn btn-primary">
+                            <i className="fas fa-file-arrow-down"></i> Download Resume
+                            </button>
+                        </a>
                     </div>
                 </div>
                 </div>
