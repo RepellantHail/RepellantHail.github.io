@@ -5,7 +5,7 @@ export default function page() {
     return (
         <div className="container-fluid p-3">
             <div className="d-flex m-1 ">
-                <div className="p-2 flex-grow-1">
+                <div className="p-2 flex-{grow|shrink}-0">
                     <Title {...{ title: "About me" }} />
                     <p>
                         Hey!, I'm Luis, I'm a software developer, located in México. Welcome to my profile site and portfolio. Checkout the projects on the portfolio page. I'm currently pursuing a degree in Software Engineering at <span>CETI</span> University. My journey into coding began with an extra class in robotics, using Lego Mindstorms.
