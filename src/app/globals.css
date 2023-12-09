@@ -102,6 +102,11 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 
+span{
+  color: rgb(var(--icon-color));
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
   margin-left: 20px;

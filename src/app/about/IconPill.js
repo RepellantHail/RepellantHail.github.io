@@ -3,7 +3,7 @@ import React from 'react'
 export default function IconPill({title, children}) {
   return (
     <h6 
-        className='m-1 p-1'
+        className='m-1 p-1 text-white'
         style={{ 
             backgroundColor: '#0C356A',
             minWidth: 'auto',
