@@ -32,7 +32,7 @@ export default function page() {
                 </div>
             </div>
             <div className="row m-1">
-                <h3>Tools</h3>
+                <h3>Technologies</h3>
                 <hr></hr>
                 <div className="d-flex flex-wrap m-1">
                     <IconPill title="React"> <i className="fa-brands fa-react"></i> </IconPill>
@@ -60,7 +60,7 @@ export default function page() {
                 </div>
             </div>
             <div className="row m-1">
-                <h3>Technologies</h3>
+                <h3>Tools </h3>
                 <hr></hr>
                 <div className="d-flex flex-wrap m-1">
                     <IconPill title="Ubuntu"> <i class="devicon-ubuntu-plain"></i> </IconPill>

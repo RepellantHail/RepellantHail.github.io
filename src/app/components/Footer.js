@@ -4,14 +4,14 @@ import styles from "./../page.module.css"
 export default function Footer() {
     return (
         <div className={`container-fluid text-center ${styles.footer}`}>
-            <div className="row m-2 ">
-                <div className="col-8">
+            <div className="row m-2 p-1">
+                <div className="col-6">
                     <h4  className='mb-3'>Luis Modesto</h4>
                     <p>Software Engineering Student</p>
                 </div>
-                <div className="col-4 " >
+                <div className="col-6" >
                     <h4  className='mb-3'>Social</h4>
-                    <div className="d-flex  flex-wrap justify-content-end">
+                    <div className="d-flex  flex-wrap justify-content-end p-1">
                         <a className="icon-link" href="https://www.linkedin.com/in/jearim-modesto/" target="_blank">
                             <i class="bi bi-linkedin"> </i>        
                             LinkedIn                      
