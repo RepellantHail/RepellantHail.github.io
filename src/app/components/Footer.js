@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 <div className="col-4 " >
                     <h4  className='mb-3'>Social</h4>
-                    <div className="d-flex justify-content-end">
+                    <div className="d-flex  flex-wrap justify-content-end">
                         <a className="icon-link" href="https://www.linkedin.com/in/jearim-modesto/" target="_blank">
                             <i class="bi bi-linkedin"> </i>        
                             LinkedIn                      
@@ -35,8 +35,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <hr></hr>
             <div className="row m-3">
-                <div className="col d-flex justify-content-between">
+                <div className="col d-flex  flex-wrap  justify-content-between">
                     <h6>Built with: 
                         <i class="fa-brands fa-react"></i> React.js  Next.js 
                         <i class="fa-brands fa-bootstrap"></i> Bootstrap
