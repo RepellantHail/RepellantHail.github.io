@@ -22,6 +22,10 @@ export default function RootLayout({ children }) {
       </body>
       {/* //Awesome font icons */}
       <script src="https://kit.fontawesome.com/09337f0c82.js" crossorigin="anonymous"></script>
+
+      {/* //Software tools icons */}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+          
     </html>
   )
 }
