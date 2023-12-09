@@ -5,7 +5,7 @@ export default function IconPill({title, children}) {
     <h6 
         className='m-1 p-1'
         style={{ 
-            backgroundColor: 'red',
+            backgroundColor: '#0C356A',
             minWidth: 'auto',
             borderRadius: '5px',
         }}
