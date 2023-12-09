@@ -245,3 +245,8 @@
 .footer a{
   color: rgb(var(--icon-color));
 }
+
+.cardMine{
+  background-color: rgb(var(--background-footer));
+  color: white;
+}

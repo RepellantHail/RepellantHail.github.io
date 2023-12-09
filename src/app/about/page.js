@@ -1,5 +1,6 @@
 import Title from "../components/Title";
 import IconPill from "./IconPill";
+import styles from "./../page.module.css"
 
 export default function page() {
     return (
@@ -15,11 +16,11 @@ export default function page() {
                     </p>
                 </div>
                 <div className="p-2">
-                <div class="card" style={{width: '18rem'}}>
+                <div className={`card mb-3 ${styles.cardMine}`} style={{width: '18rem'}}>
                     <img
+                        className="img-thumbnail"
                         src='./../developer-profile-picture.png'
                         alt="Profile Picture"
-                        style={{margin: 10, width: 280, height: 200}}
                     ></img>
                     <div class="card-body">
                         <h5 class="card-title">Contact</h5>
