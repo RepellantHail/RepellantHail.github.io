@@ -13,7 +13,7 @@ export default function Main(){
                 </div>
                 <div className="col-6 text-center p-3">
                     <img
-                        src='./developer-profile-picture.png'
+                        src='./images/developer-profile-picture.png'
                         alt="Profile Picture"
                         style={{margin: 10, width: 280, height: 200}}
                     ></img>
