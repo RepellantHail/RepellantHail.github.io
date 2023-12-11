@@ -1,43 +1,29 @@
 import Title from "../components/Title";
 import IconPill from "./IconPill";
-import styles from "./../page.module.css"
+import ContactCard from "./ContactCard";
 
 export default function page() {
     return (
         <div className="container-fluid p-3">
-            <div className="d-flex m-1 ">
-                <div className="p-2 flex-{grow|shrink}-0">
-                    <Title {...{ title: "About me" }} />
+            <Title {...{ title: "About me" }} />
+
+            <div className="row m-1 mw-100">
+                <div className="col-8 m-3 p-1">
                     <p>
-                        Hey!, I'm Luis, I'm a software developer, located in México. Welcome to my profile site and portfolio. Checkout the projects on the portfolio page. I'm currently pursuing a degree in Software Engineering at <span>CETI</span> University. My journey into coding began with an extra class in robotics, using Lego Mindstorms.
+                        Hey!, I'm Luis, I'm a software developer, located in México. Welcome to my profile site and portfolio. Checkout the projects on the portfolio page. I'm currently pursuing a degree in Software Engineering at <span>CETI</span> University. I'm continuous challenging myself, and trying to get a better understanding about the world of Computer Science. I'm currently pursuing additional certifications in machine learning to deepen my knowledge.
+                    </p>
+                    <p>
+                        My journey into coding began with an extracurricular class in robotics, using Lego Mindstorms. I am interested in exploring the fields of Machine Learning. I've already participated in a hackathon for game development, which allowed me to gain valuable experience in teamwork and rapid prototyping. You can download my resume to get a better understanding on the courses that I've taken. 
                     </p>
                     <p>
                         In my coding adventures, I've developed a strong foundation in languages like <span>C++</span>, <span>Javascript</span>, <span>Java</span>, and I specialize in web development. I believe in the power of continuous learning, and I'm always on the lookout for new technologies and trends in the ever-evolving tech landscape.
                     </p>
                 </div>
-                <div className="p-2">
-                <div className={`card mb-3 ${styles.cardMine}`} style={{width: '18rem'}}>
-                    <img
-                        className="img-thumbnail"
-                        src='./../images/developer-profile-picture.png'
-                        alt="Profile Picture"
-                    ></img>
-                    <div class="card-body">
-                        <h5 class="card-title">Contact</h5>
-                        <p class="card-text">
-                            <a href="mailto:jearimmodesto@gmail.com">
-                                <i className="fas fa-envelope"></i> jearimmodesto@gmail.com
-                            </a>
-                        </p>
-                        <a href="./../Profile.pdf" download>
-                            <button type="button" className="btn btn-primary">
-                            <i className="fas fa-file-arrow-down"></i> Download Resume
-                            </button>
-                        </a>
-                    </div>
-                </div>
+                <div className="col m-3">
+                    <ContactCard/>
                 </div>
             </div>
+
             <div className="row m-1">
                 <h3>Technologies</h3>
                 <hr></hr>
@@ -66,6 +52,7 @@ export default function page() {
                     <IconPill title="Next"> <i class="devicon-nextjs-original"></i> </IconPill>
                 </div>
             </div>
+
             <div className="row m-1">
                 <h3>Tools </h3>
                 <hr></hr>
@@ -84,6 +71,7 @@ export default function page() {
                     <IconPill title="Filezilla"> <i class="devicon-filezilla-plain"></i> </IconPill>
                 </div>
             </div>
+
             <div className="row m-1">
                 <h3>Soft Skills</h3>
                 <hr></hr>
