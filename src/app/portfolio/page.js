@@ -11,7 +11,7 @@ export default function page() {
       <div class="row row-cols-1 row-cols-md-3 g-2">
         <ProjectCard {...{
                         title: 'projecTitle',
-                        picture: './../project.jpg',
+                        picture: './../portfolioPictures/project.jpg',
                         desc: 'project description',
                         tools: 'Tools used to built project',
                         repo: 'https://getbootstrap.com/docs/5.3/utilities/vertical-align/',
@@ -20,7 +20,7 @@ export default function page() {
         </ProjectCard>
         <ProjectCard {...{
                         title: 'projecTitle',
-                        picture: './../project.jpg',
+                        picture: './../portfolioPictures/project.jpg',
                         desc: 'project description',
                         tools: 'Tools used to built project',
                         repo: 'https://getbootstrap.com/docs/5.3/utilities/vertical-align/',
@@ -29,7 +29,7 @@ export default function page() {
         </ProjectCard>
         <ProjectCard {...{
                         title: 'projecTitle',
-                        picture: './../project.jpg',
+                        picture: './../portfolioPictures/project.jpg',
                         desc: 'project description',
                         tools: 'Tools used to built project',
                         repo: 'https://getbootstrap.com/docs/5.3/utilities/vertical-align/',
@@ -38,7 +38,7 @@ export default function page() {
         </ProjectCard>
         <ProjectCard {...{
                         title: 'projecTitle',
-                        picture: './../project.jpg',
+                        picture: './../portfolioPictures/project.jpg',
                         desc: 'project description',
                         tools: 'Tools used to built project',
                         repo: 'https://getbootstrap.com/docs/5.3/utilities/vertical-align/',

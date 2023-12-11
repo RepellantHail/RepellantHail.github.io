@@ -21,7 +21,7 @@ export default function Footer() {
                             Github
                         </a>     
                         <a className="icon-link" href="https://leetcode.com/a20310068/" target="_blank">                            
-                            <img src='./leetcode.svg' alt="leetcode SVG" style={{ margin: 0, width: 20, height: 20}}/>
+                            <img src='./utils/leetcode.svg' alt="leetcode SVG" style={{ margin: 0, width: 20, height: 20}}/>
                             LeetCode
                         </a> 
                         <a className="icon-link" href="https://www.hackerrank.com/profile/a20310068" target="_blank">      
@@ -29,7 +29,7 @@ export default function Footer() {
                             HackerRank
                         </a>     
                         <a className="icon-link" href="https://www.codewars.com/users/RepellantHail10" target="_blank">  
-                            <img src='./codewars.svg' alt="codewars SVG" style={{ margin: 0, width: 20, height: 20}}/>
+                            <img src='./utils/codewars.svg' alt="codewars SVG" style={{ margin: 0, width: 20, height: 20}}/>
                             CodeWars
                         </a>                        
                     </div>

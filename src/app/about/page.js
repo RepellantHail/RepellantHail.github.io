@@ -19,7 +19,7 @@ export default function page() {
                 <div className={`card mb-3 ${styles.cardMine}`} style={{width: '18rem'}}>
                     <img
                         className="img-thumbnail"
-                        src='./../developer-profile-picture.png'
+                        src='./../images/developer-profile-picture.png'
                         alt="Profile Picture"
                     ></img>
                     <div class="card-body">
