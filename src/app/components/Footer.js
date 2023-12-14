@@ -27,6 +27,9 @@ export default function Footer() {
                         <a className="icon-link" href="https://www.hackerrank.com/profile/a20310068" target="_blank">      
                             <i class="fa-brands fa-hackerrank"></i>
                             HackerRank
+                        </a> 
+                        <a className="icon-link" href="https://codepen.io/RepellantHail" target="_blank"> 
+                            <i class="devicon-codepen-plain"></i> CodePen
                         </a>     
                         <a className="icon-link" href="https://www.codewars.com/users/RepellantHail10" target="_blank">  
                             <img src='./utils/codewars.svg' alt="codewars SVG" style={{ margin: 0, width: 20, height: 20}}/>
